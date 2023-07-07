@@ -13,11 +13,11 @@ JavaScript-ը վեբ ծրագրավորման մեջ կիրառվող հիմնա
 
 Գրանցվի՛ր հիմա և ստացիր 3 փորձնական դասի մասնակցության հնարավորություն ԱՆՎՃԱՐ
 
-## Վաժություններ
+## Դասեր
 
-- [Վաժություն 1](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson1)
+- [Դաս 1](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson1)
 
-- [Վաժություն 2](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson2)
+- [Դաս 2](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson2)
 
 
-- [Վաժություն 3](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson3)
+- [Դաս 3](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson3)
