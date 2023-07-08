@@ -41,3 +41,15 @@ function sumNumbers(num1, num2, num3, num4) {
 
 console.log(sumNumbers(1, 2, 3, 4));
 ```
+
+<br>
+
+### Վաժություն 5. Ունեք ֆունկցիա 4 պարամետրով՝թվեր։ Ֆունկցիայի միջոցով գրել մի կոդ,որը կվերադարձնի ֆունկցիայի պարամետրերի արտադրյալը։
+```js
+function multiplication(num1, num2, num3, num4) {
+  let mult = num1 * num2 * num3 * num4;
+  return mult;
+}
+
+console.log(multiplication(1, 2, 3, 4));
+```
