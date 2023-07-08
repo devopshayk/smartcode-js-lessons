@@ -21,3 +21,6 @@ JavaScript-ը վեբ ծրագրավորման մեջ կիրառվող հիմնա
 
 
 - [Դաս 3](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson3)
+
+
+- [Դաս 4](https://github.com/devopshayk/smartcode-js-lessons/tree/main/Lesson4)
