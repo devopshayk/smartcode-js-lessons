@@ -66,7 +66,7 @@ function checkDivisibility(a, b) {
     }
 }
 
-console.log(checkDivisibility(10,3));
+console.log(checkDivisibility(10, 5));
 ```
 
 <br>
@@ -106,7 +106,7 @@ console.log(str);
 
 <br>
 
-### Վաժություն 10. 10. Տպել 256 թվի բոլոր բաժանարարները։
+### Վաժություն 10. Տպել `256` թվի բոլոր բաժանարարները։
 ```js
 let num = 256;
 
