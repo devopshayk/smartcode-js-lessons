@@ -200,3 +200,21 @@ str = str.trimRight();
 console.log(str.length); // 5
 console.log(str); 
 ```
+
+<br>
+
+## String.toLocaleLowerCase()
+
+### Օրինակ
+```js
+console.log('ԱՅԲՈՒԲԵՆ'.toLocaleLowerCase());
+```
+
+<br>
+
+## String.toLocaleUpperCase()
+
+### Օրինակ
+```js
+console.log('ԱՅԲՈՒԲԵՆ'.toLocaleUpperCase());
+```
