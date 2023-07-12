@@ -1,32 +1,32 @@
 # Դաս 5
 
-### Վարժություն 1. Փոփոխականին վերագրված այս տեքստից 'I learn javascript!' կտրեք «learn» և «javascript» բառերը երեք տարբեր եղանակներով (substr, substring, slice-ի միջոցով):
+### Վարժություն 1. Փոփոխականին վերագրված այս տեքստից `I learn javascript!` կտրեք `learn` և `javascript` բառերը երեք տարբեր եղանակներով (`substr`, `substring`, `slice`-ի միջոցով):
 ```js
 let text = 'I learn javascript';
 let result = text.substr(0, 1);
 
-console.log(result); // Variant 1
+console.log(result); // Եղանակնակ 1
 
 
 
 let text = 'I learn javascript';
 let result = text.substring(0, 1);
 
-console.log(result); // Variant 2
+console.log(result); // Եղանակնակ 2
 
 
 
 let text = 'I learn javascript';
 let result = text.slice(0, 1);
 
-console.log(result); // Variant 3
+console.log(result); // Եղանակնակ 3
 ```
 
 <br>
 
-### Վարժություն 2. Տրված է «abcde» տողը: Որոշեք «c» տառի դիրքը (index) այս տողում:
+### Վարժություն 2. Տրված է `abcde` տողը: Որոշեք `c` տառի դիրքը <b>(index)<b> այս տողում:
 ```js
-let str = 'abcd';
+let str = 'abcde';
 let result = str.indexOf('c');
 
 console.log(result);
@@ -44,7 +44,7 @@ console.log(result);
 
 <br>
 
-### Վարժություն 4. .Տրված է `str` փոփոխականը, որը պահպանում է որոշ տեքստ- my name is John։ Իրականացրեք երկար տեքստի կրճատումը հետևյալ սկզբունքով. եթե այս տեքստի նիշերի թիվն ավելի մեծ է, քան n փոփոխականում նշված թիվը, ապա արդյունքի փոփոխականում մենք գրում ենք `str` տողի առաջին n-ի քանակի նիշերը և ավելացնում ենք բազմակետերը․..' Հակառակ դեպքում `str` փոփոխականի բովանդակությունը կգրենք result փոփոխականի մեջ։
+### Վարժություն 4. .Տրված է `str` փոփոխականը, որը պահպանում է որոշ տեքստ- `my name is John։` Իրականացրեք երկար տեքստի կրճատումը հետևյալ սկզբունքով. եթե այս տեքստի նիշերի թիվն ավելի մեծ է, քան `n` փոփոխականում նշված թիվը, ապա արդյունքի փոփոխականում մենք գրում ենք `str` տողի առաջին `n`-ի քանակի նիշերը և ավելացնում ենք բազմակետերը `․..`' Հակառակ դեպքում `str` փոփոխականի բովանդակությունը կգրենք `result` փոփոխականի մեջ։
 ```js
 let str = "my name is John";
 let n = 10; 
