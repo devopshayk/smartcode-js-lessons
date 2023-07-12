@@ -17,8 +17,8 @@ console.log(name  + ' բառը մեջ կա ' + name.length + ' սիմվոլ');
 ### Օրինակ
 
 ```js
-const str1 = 'Hayk';
-const str2 = 'Poghosyan';
+const str1 = 'Հայկ';
+const str2 = 'Պողոսյան';
 
 console.log(str1.concat(' ', str2));
 console.log(str2.concat(' ', str1));
@@ -31,10 +31,22 @@ console.log(str2.concat(' ', str1));
 ### Օրինակ
 
 ```js
-let str = 'My name is Hayk';
+let str = 'Իմ անունը Հայկ է';
 
-console.log(str.endsWith('Hayk'));  // true
-console.log(str.endsWith('name')); // false
+console.log(str.endsWith('Հայկ'));  // false
+console.log(str.endsWith('է'));    // true
+```
+
+<br>
+
+## String.startsWith()
+
+### Օրինակ
+```js
+let str = 'Быть или не быть, вот в чём вопрос.';
+
+console.log(str.startsWith('Быть или'));   // true
+console.log(str.startsWith('не быть'));   // false
 ```
 
 <br>
@@ -44,12 +56,11 @@ console.log(str.endsWith('name')); // false
 ### Օրինակ
 
 ```js
-let str = 'My name is Hayk.';
+let str = 'Իմ անունը Հայկ է:';
 
-console.log(str.includes('My'));   // true
-console.log(str.includes('Hayk')); // true
-console.log(str.includes('is' 2)); // true
-
+console.log(str.includes('Իմ'));   // true
+console.log(str.includes('Հայկ')); // true
+console.log(str.includes('է', 2)); // true
 ```
 
 <br>
@@ -114,9 +125,21 @@ console.log(c);
 
 ### Օրինակ
 ```js
-let str = 'Hayk Poghosyan';
-let result = str.replace('Hayk', 'Mher');
+let str = 'Հայկ Պողոսյան';
+let result = str.replace('Հայկ', 'Մհեր');
 
 console.log(str);
 console.log(result);
+```
+
+<br>
+
+## String.split()
+
+### Օրինակ
+```js
+let str = 'Բարև երկիր, ոնց ես';
+let splits = str.split(' ', 2);
+
+console.log(splits);
 ```
