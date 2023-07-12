@@ -216,5 +216,5 @@ console.log('ԱՅԲՈՒԲԵՆ'.toLocaleLowerCase());
 
 ### Օրինակ
 ```js
-console.log('ԱՅԲՈՒԲԵՆ'.toLocaleUpperCase());
+console.log('այբուբեն'.toLocaleUpperCase());
 ```
