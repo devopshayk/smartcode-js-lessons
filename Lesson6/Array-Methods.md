@@ -269,10 +269,10 @@ console.log(elements.join());
 ### Օրինակ
 
 ```js
-const array1 = ['a', 'b', 'c'];
-const iterator = array1.keys();
+let array1 = ['a', 'b', 'c'];
+let iterator = array1.keys();
 
-for (const key of iterator) {
+for (let key of iterator) {
   console.log(key);
 }
 
@@ -342,4 +342,167 @@ let sumWithInitial = array1.reduce(
 
 console.log(sumWithInitial);
 // Expected output: 10
+```
+
+<br>
+
+## Array.reverse()
+
+### Օրինակ
+
+```js
+let array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+let array1 = ['one', 'two', 'three'];
+console.log('array1:', array1);
+// Expected output: "array1:" Array ["one", "two", "three"]
+// Expected output: 10
+```
+
+<br>
+
+## Array.shift()
+
+### Օրինակ
+
+```js
+let array1 = [1, 2, 3];
+
+let firstElement = array1.shift();
+
+console.log(array1);
+// Expected output: Array [2, 3]
+
+console.log(firstElement);
+// Expected output: 1
+```
+
+<br>
+
+## Array.slice()
+
+### Օրինակ
+
+```js
+let animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2));
+// Expected output: Array ["camel", "duck", "elephant"]
+```
+
+<br>
+
+## Array.some()
+
+### Օրինակ
+
+```js
+let array = [1, 2, 3, 4, 5];
+
+// Checks whether an element is even
+let even = (element) => element % 2 === 0;
+
+console.log(array.some(even));
+// Expected output: true
+```
+
+<br>
+
+## Array.sort()
+
+### Օրինակ
+
+```js
+let months = ['March', 'Jan', 'Feb', 'Dec'];
+months.sort();
+console.log(months);
+// Expected output: Array ["Dec", "Feb", "Jan", "March"]
+```
+
+<br>
+
+## Array.splice()
+
+### Օրինակ
+
+```js
+let months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// Inserts at index 1
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+```
+
+<br>
+
+## Array.toLocaleString()
+
+### Օրինակ
+
+```js
+let array1 = [1, 'a', new Date('21 Dec 1997 14:12:00 UTC')];
+let localeString = array1.toLocaleString('en', { timeZone: 'UTC' });
+
+console.log(localeString);
+// Expected output: "1,a,12/21/1997, 2:12:00 PM",
+// This assumes "en" locale and UTC timezone - your results may vary
+```
+
+<br>
+
+## Array.toReversed()
+
+### Օրինակ
+
+```js
+toReversed()
+```
+
+<br>
+
+## Array.toString()
+
+### Օրինակ
+
+```js
+let array1 = [1, 2, 'a', '1a'];
+
+console.log(array1.toString());
+// Expected output: "1,2,a,1a"
+```
+
+<br>
+
+## Array.unshift()
+
+### Օրինակ
+
+```js
+let array1 = [1, 2, 3];
+
+console.log(array1.unshift(4, 5));
+// Expected output: 5
+
+console.log(array1);
+// Expected output: Array [4, 5, 1, 2, 3]
+```
+
+<br>
+
+## Array.values()
+
+### Օրինակ
+
+```js
+let array1 = ['a', 'b', 'c'];
+let iterator = array1.values();
+
+for (let value of iterator) {
+  console.log(value);
+}
+
+// Expected output: "a"
+// Expected output: "b"
+// Expected output: "c"
 ```
