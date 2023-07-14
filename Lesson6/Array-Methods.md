@@ -237,7 +237,7 @@ console.log(beasts.indexOf('bison'));
 
 <br>
 
-## Array.indexOf()
+## Array.isArray()
 
 ### Օրինակ
 
@@ -247,4 +247,99 @@ console.log(Array.isArray([1, 3, 5]));
 
 console.log(Array.isArray('[]'));
 // Expected output: false
+```
+
+<br>
+
+## Array.join()
+
+### Օրինակ
+
+```js
+let elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// Expected output: "Fire,Air,Water"
+```
+
+<br>
+
+## Array.keys()
+
+### Օրինակ
+
+```js
+const array1 = ['a', 'b', 'c'];
+const iterator = array1.keys();
+
+for (const key of iterator) {
+  console.log(key);
+}
+
+// Expected output: 0
+// Expected output: 1
+// Expected output: 2
+```
+
+<br>
+
+## Array.map()
+
+### Օրինակ
+
+```js
+let array1 = [1, 4, 9, 16];
+
+// Pass a function to map
+let map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// Expected output: Array [2, 8, 18, 32]
+```
+
+<br>
+
+## Array.pop()
+
+### Օրինակ
+
+```js
+let plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+
+console.log(plants.pop());
+// Expected output: "tomato"
+```
+
+<br>
+
+## Array.push()
+
+### Օրինակ
+
+```js
+let animals = ['pigs', 'goats', 'sheep'];
+
+let count = animals.push('cows');
+console.log(count);
+// Expected output: 4
+```
+
+<br>
+
+## Array.reduce()
+
+### Օրինակ
+
+```js
+let array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+let initialValue = 0;
+let sumWithInitial = array1.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+);
+
+console.log(sumWithInitial);
+// Expected output: 10
 ```
