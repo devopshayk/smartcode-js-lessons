@@ -33,7 +33,7 @@ console.log(firstNamesAbove18);
 
 <br>
 
-### Վարժություն 3.
+### Վարժություն 4.
 ```js
 // 4. Տպել այն ՛տղա՛  user-ներին,որոնց աշխատավարձը մեծ է 100-ից:
 let maleAbove100Salary = arr.filter(user => user.gender === 'male' && user.sallary > 100).map(user => user.firstName);
