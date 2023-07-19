@@ -14,10 +14,10 @@ arr.forEach(user => {
 ### Վարժություն 2.
 ```js
 //  Տպել user-ներին, որոնք ապրում են Հայաստանում:
-let firstNamesInArmenia = arr.filter(user => user.country === 'Armenia').map(user => user.firstName);
+let livedInArmenia = arr.filter(user => user.country === 'Armenia').map(user => user.firstName);
 
 console.log("Այն մարդիկ որոնք ապրում են Հայաստանում:");
-console.log(firstNamesInArmenia); 
+console.log(livedInArmenia); 
 ```
 
 <br>
@@ -25,10 +25,10 @@ console.log(firstNamesInArmenia);
 ### Վարժություն 3.
 ```js
 // 3. Տպել բոլոր չափահաս անձանց:
-let firstNamesAbove18 = arr.filter(user => user.age > 18).map(user => user.firstName);
+let bigHumans = arr.filter(user => user.age > 18).map(user => user.firstName);
 
 console.log("Տպել բոլոր չափահաս անձանց:");
-console.log(firstNamesAbove18); 
+console.log(bigHumans); 
 ```
 
 <br>
@@ -36,8 +36,8 @@ console.log(firstNamesAbove18);
 ### Վարժություն 4.
 ```js
 // 4. Տպել այն ՛տղա՛  user-ներին,որոնց աշխատավարձը մեծ է 100-ից:
-let maleAbove100Salary = arr.filter(user => user.gender === 'male' && user.sallary > 100).map(user => user.firstName);
+let boySallary = arr.filter(user => user.gender === 'male' && user.sallary > 100).map(user => user.firstName);
 
 console.log("Տպել այն ՛տղա՛  user-ներին,որոնց աշխատավարձը մեծ է 100-ից:");
-console.log(maleAbove100Salary); 
+console.log(boySallary); 
 ```
