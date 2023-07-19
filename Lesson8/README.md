@@ -5,7 +5,8 @@
 ### Վարժություն 1. Տպել բոլոր user-ներին:
 ```js
 let arr = [
-   	{ id:12345567,
+   	{ 
+      id:12345567,
       firstName: 'Ann',
       lastName: 'Poghosyan',
       email: 'harutyunyan.a@mail.ru',
@@ -48,7 +49,8 @@ arr.forEach(user => {
 ### Վարժություն 2. Տպել user-ներին,որոնք ապրում են Հայաստանում:
 ```js
 let arr = [
-   	{ id:12345567,
+   	{ 
+      id:12345567,
       firstName: 'Ann',
       lastName: 'Poghosyan',
       email: 'harutyunyan.a@mail.ru',
@@ -91,7 +93,8 @@ console.log(livedInArmenia);
 ### Վարժություն 3. Տպել չափահաս  user-ներին:
 ```js
 let arr = [
-   	{ id:12345567,
+   	{ 
+      id:12345567,
       firstName: 'Ann',
       lastName: 'Poghosyan',
       email: 'harutyunyan.a@mail.ru',
@@ -111,7 +114,7 @@ let arr = [
       sallary: 546,
     },
     {
-    	id:12345567,
+      id:12345567,
       firstName: 'Sargis',
       lastName: 'Davtyan',
       email: 'sargis123.a@mail.com',
@@ -134,7 +137,8 @@ console.log(bigHumans);
 ### Վարժություն 4. Տպել այն `տղա user`-ներին,որոնց աշխատավարձը մեծ է 100-ից:
 ```js
 let arr = [
-   	{ id:12345567,
+   	{ 
+      id:12345567,
       firstName: 'Ann',
       lastName: 'Poghosyan',
       email: 'harutyunyan.a@mail.ru',
@@ -177,7 +181,8 @@ console.log(boySallary);
 ### Վարժություն 5. Վերադասավորել  user-ներին ըստ տարիքի փոքրից մեծ։
 ```js
 let arr = [
-   	{ id:12345567,
+   	{ 
+      id:12345567,
       firstName: 'Ann',
       lastName: 'Poghosyan',
       email: 'harutyunyan.a@mail.ru',
