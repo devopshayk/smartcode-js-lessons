@@ -25,7 +25,7 @@ class Student {
 const student1 = new Student("hayk", "poghosyan");
 const student2 = new Student("gayane", "petrosyan");
 
-console.log(student1.getFullName()); // Output: "John Doe"
-console.log(student2.getFullName()); // Output: "Alice Smith"
+console.log(student1.getFullName()); 
+console.log(student2.getFullName()); 
 ```
 
