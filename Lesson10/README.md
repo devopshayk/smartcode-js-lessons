@@ -29,3 +29,41 @@ console.log(student1.getFullName());
 console.log(student2.getFullName()); 
 ```
 
+<br>
+
+### Վարժություն 2. Ստեղծեք Ուսանող (`Student`) <b>class,</b> որը ժառանգելու է `User` <b>class</b>-ից: Այս դասը պետք է ունենա հետևյալ հատկությունները՝ `անուն` (անուն, ժառանգած Օգտատերից), `ազգանուն` (ազգանուն, ժառանգած Օգտատերից), `տարի` (բուհ ընդունվելու տարի): Կլասը պետք է ունենա `getFullName()` մեթոդ (ժառանգված է User-ից), որը կարող է օգտագործվել աշակերտի անունն ու ազգանունը միաժամանակ ցուցադրելու համար։ Կլասը պետք է ունենա նաև `getCourse()` մեթոդ, որը կցուցադրի ուսանողի ընթացիկ դասընթացը (1-ից մինչև 5): Դասընթացը հաշվարկվում է հետևյալ կերպ՝ ընթացիկ տարվանից պետք է հանել բուհ ընդունվելու տարին։ Ձեռք բերեք ընթացիկ տարին ինքներդ:
+
+```js
+class User {
+  constructor(name, lastName, year, lesson, date) {
+    this.name = name;
+    this.lastName = lastName;
+    this.year = year;
+    this.lesson = lesson;
+    this.date = date;
+  }
+  
+  getFullName() {
+    let name = this.name;
+    let lastName = this.lastName;
+    return `${name} ${lastName}`;
+  }
+  
+  getCours() {
+    let date = this.date;
+    let year = this.year;
+    return date - year;
+  }
+}
+
+class Student extends User {
+  constructor(name, lastName, year, lesson, date) {
+    super(name, lastName, year, lesson, date);
+  }
+}
+
+let Hayk = new User('Hayk', 'Poghosyan', 2012, '', 2023);
+let myStudent = new Student('Robert', 'Chalyan', 2019, '', 2023);
+console.log(myStudent.getCours()); 
+console.log(myStudent.getFullName()); 
+```
