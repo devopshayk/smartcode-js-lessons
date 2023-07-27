@@ -31,7 +31,7 @@ console.log(duplicatesArray);
 
 <br>
 
-### Վարժություն 2. Տպել թե քնի անգամ են կրկնվում:
+### Վարժություն 2. Տպել թե քանի անգամ են կրկնվում այդ թվերը:
 ```js
  function findDuplicatesWithCount(arr) {
   let duplicates = {};
@@ -65,6 +65,7 @@ for (let num in duplicatesWithCount) {
 
 <br>
 
+### Վարժություն 3. Ինքնուրույն ստեղծել մի կլաս,իր ժառանգվող կլասներով, օգտագործել `Prototypical Inheritanse`, `Polymorphism`, `Encapsulation`.
 ```js
 function Animal(name, sound) {
   this._name = name;
