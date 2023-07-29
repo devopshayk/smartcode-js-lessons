@@ -14,7 +14,7 @@
     <label for="input2">Number 2:</label>
     <input type="number" id="input2" />
 
-    <button id="btn">Calculate Sum</button>
+    <button id="btn">Sum</button>
 
     <script src="script.js"></script>
 </body>
