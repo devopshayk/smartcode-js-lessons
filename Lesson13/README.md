@@ -2,7 +2,7 @@
 
 ### [Վարժություն 1] (https://devopshayk.github.io/smartcode-js-lessons/Lesson13/exercises1//index.html). Ունեք երկու մուտքագրման դաշտ և կոճակ: Սեղմելով կոճակի վրա կոնսոլի դաշտում թող ցուցադրվի մուտքագրման դաշտերի թվերի գումարը:
 
-`index.html`
+`exercises1/index.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -24,7 +24,7 @@
 
 ```
 
-`script.js`
+`exercises1/script.js`
 ```js
 let input1 = document.getElementById('input1');
 let input2 = document.getElementById('input2');
@@ -43,7 +43,8 @@ btn.addEventListener('click', () => {
 
 <br>
 
-### Վարժություն 2. Ունեք երեք տեքստ: Յուրաքանչյուրը տարբեր պարունակություններով որոնք կլինենք ցանկացած բառ: Սեղմելով կոճակի վրա թող հայտնվի չորրորդ տեքստը որի մեջ կնկարվի այդ երեք տեքստերը միասին:
+### [Վարժություն 2] (https://devopshayk.github.io/smartcode-js-lessons/Lesson13/exercises2//index.html): Սեղմելով կոճակի վրա թող հայտնվի չորրորդ տեքստը որի մեջ կնկարվի այդ երեք տեքստերը միասին:
+`exercises2/index.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -61,6 +62,7 @@ btn.addEventListener('click', () => {
 </html>
 ```
 
+`exercises2/script.js`
 ```js
 function miavorum() {
 
@@ -72,4 +74,41 @@ function miavorum() {
 
     document.getElementById('textiMiavorum').textContent = textiMiavorum;
 }
+```
+
+<br>
+
+### [Վարժություն 3] (https://devopshayk.github.io/smartcode-js-lessons/Lesson13/exercises3//index.html): Ունեք տեքստ՝ պարբերություն,որի մեջ կա թիվ: Սեղմելով այդ պարբերության վրա, թող այդ թիվը փոխվի իր քառակուսիով:
+`exercises3/index.html`
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Squaring</title>
+</head>
+<body>
+    <p id="paragraph" style='cursor:pointer'>The number is: 5</p>
+    
+    <script src='script.js'></script>
+</body>
+</html>
+
+```
+
+`exercises3/script.js`
+```js
+function squareNumber(number) {
+    return number * number;
+}
+
+document.getElementById('paragraph').addEventListener('click', function() {
+   
+let paragraphText = this.textContent;
+
+let number = parseFloat(paragraphText.match(/\d+/));
+
+let squaredNumber = squareNumber(number);
+
+this.textContent = paragraphText.replace(number, squaredNumber);
+});
 ```
