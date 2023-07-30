@@ -1,6 +1,8 @@
 # Դաս 13
 
 ### Վարժություն 1. Ունեք երկու մուտքագրման դաշտ և կոճակ: Սեղմելով կոճակի վրա կոնսոլի դաշտում թող ցուցադրվի մուտքագրման դաշտերի թվերի գումարը:
+
+`index.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -22,6 +24,7 @@
 
 ```
 
+`script.js`
 ```js
 let input1 = document.getElementById('input1');
 let input2 = document.getElementById('input2');
