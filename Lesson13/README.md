@@ -37,3 +37,36 @@ btn.addEventListener('click', () => {
 });
 
 ```
+
+<br>
+
+### Վարժություն 2. Ունեք երեք տեքստ:Յուրաքանչյուրը տարբեր պարունակություններով որոնք կլինենք ցանկացած բառ: Սեղմելով կոճակի վրա թող հայտնվի չորրորդ տեքստը որի մեջ կնկարվի այդ երեք տեքստերը միասին:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combine Texts</title>
+</head>
+<body>
+    <input type="text" id="text1" placeholder="Enter text 1">
+    <input type="text" id="text2" placeholder="Enter text 2">
+    <input type="text" id="text3" placeholder="Enter text 3">
+    <button onclick="miavorum()">Combine Texts</button>
+    <p id="textiMiavorum"></p>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+```js
+function miavorum() {
+
+    let text1 = document.getElementById('text1').value;
+    let text2 = document.getElementById('text2').value;
+    let text3 = document.getElementById('text3').value;
+
+    let textiMiavorum = `${text1} ${text2} ${text3}`;
+
+    document.getElementById('textiMiavorum').textContent = textiMiavorum;
+}
+```
