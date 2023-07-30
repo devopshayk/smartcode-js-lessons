@@ -1,6 +1,6 @@
 # Դաս 13
 
-### [Վարժություն 1] (https://devopshayk.github.io/smartcode-js-lessons/Lesson13/exercises1/). Ունեք երկու մուտքագրման դաշտ և կոճակ: Սեղմելով կոճակի վրա կոնսոլի դաշտում թող ցուցադրվի մուտքագրման դաշտերի թվերի գումարը:
+### [Վարժություն 1] (https://devopshayk.github.io/smartcode-js-lessons/Lesson13/exercises1//index.html). Ունեք երկու մուտքագրման դաշտ և կոճակ: Սեղմելով կոճակի վրա կոնսոլի դաշտում թող ցուցադրվի մուտքագրման դաշտերի թվերի գումարը:
 
 `index.html`
 ```html
