@@ -97,7 +97,7 @@ for (let i = 1; i <= 10; i++) {
 
 ```js
 for (let i = 1; i <= 10; i++) {
-	let cube = i ** 3;
+	let cube = i * i;
  	console.log(cube);
 }
 ```
