@@ -3,7 +3,7 @@
 ### Վաժություն. `html` ֆայլի մեջ ունենալ մի հատ `div`, JavaScript-ի օգնությամբ այդ `div`-ի մեջ ավելացնել նկարներ, և ամեն `reload` անելուց նկարները պետք է տեղերով փոխվեն։
 
 
-`index.html` (https://devopshayk.github.io/smartcode-js-lessons/Lesson18/exercises//index.html)
+`index.html` (https://devopshayk.github.io/smartcode-js-lessons/Lesson18/index.html)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +26,7 @@
 <br>
 
 
-`style.css` (https://devopshayk.github.io/smartcode-js-lessons/Lesson18/exercises//style.css)
+`style.css` (https://devopshayk.github.io/smartcode-js-lessons/Lesson18/style.css)
 ```css
 div {
     display: flex;
@@ -39,7 +39,7 @@ div {
 <br>
 
 
-`script.js` (https://devopshayk.github.io/smartcode-js-lessons/Lesson18/exercises//script.js)
+`script.js` (https://devopshayk.github.io/smartcode-js-lessons/Lesson18/script.js)
 ```js
 const imageContainer = document.querySelector('div');
 const imageUrls = [
