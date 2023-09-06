@@ -26,7 +26,7 @@
 <br>
 
 
-`style.css` (https://github.com/devopshayk/smartcode-js-lessons/blob/main/Lesson18/style.css)
+`style.css` (https://github.com/devopshayk/smartcode-js-lessons/blob/main/Lesson18/css//style.css)
 ```css
 div {
     display: flex;
@@ -39,7 +39,7 @@ div {
 <br>
 
 
-`script.js` (https://github.com/devopshayk/smartcode-js-lessons/blob/main/Lesson18/script.js)
+`script.js` (https://github.com/devopshayk/smartcode-js-lessons/blob/main/Lesson18/js//script.js)
 ```js
 const imageContainer = document.querySelector('div');
 const imageUrls = [
