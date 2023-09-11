@@ -1,5 +1,3 @@
-
-
 const sliderImage = document.getElementById('sliderImage');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
