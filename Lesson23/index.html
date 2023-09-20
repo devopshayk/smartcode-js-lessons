@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <i class="fas fa-shopping-cart"></i>
+        <div class="cart">
+        </div>
+    </nav>
+    <div class="mainSection">
+        <div class="menu">
+            <h2>Filters</h2>
+            <label for="categoryFilter">Category:</label>
+            <select id="categoryFilter">
+                <option value="">All</option>
+                <option value="smartphones">Smartphones</option>
+                <option value="laptops">Laptops</option>
+                <option value="fragrances">Fragrances</option>
+
+            </select>
+
+            <label for="brandFilter">Brand:</label>
+            <select id="brandFilter">
+                <option value="">All</option>
+                <option value="Apple">Apple</option>
+                <option value="Samsung">Samsung</option>
+                <option value="OPPO">OPPO</option>
+            </select>
+            <button id="applyFilters">Apply</button>
+        </div>
+        <div class="allProducts"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

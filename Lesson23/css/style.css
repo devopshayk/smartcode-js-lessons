@@ -1,0 +1,199 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(131, 224, 228);
+    box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.3), 0px 15px 12px rgba(0, 0, 0, 0.22);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style for navigation links */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+/* Style for the shopping cart icon */
+i {
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Style for the shopping cart */
+.cart {
+    position: absolute;
+    top: -100px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+/* Style for the active shopping cart */
+.activeCart {
+    z-index: 10;
+    top: 100px;
+    right: 10px;
+    width: 300px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: rgb(228, 227, 227);
+    border-radius: 12px;
+    opacity: 1;
+    transition: all 1s;
+}
+
+/* Style for the main section */
+.mainSection {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+/* Style for the filter menu */
+.mainSection .menu {
+    width: 20%;
+    height: 600px;
+}
+
+/* Style for the product container */
+.mainSection .allProducts {
+    width: 80%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Style for individual product cards */
+.productsCard {
+    width: 23%;
+    height: 400px;
+    box-shadow: 0px 54px 55px rgba(0, 0, 0, 0.25), 0px -12px 30px rgba(0, 0, 0, 0.12), 0px 4px 6px rgba(0, 0, 0, 0.12), 0px 12px 13px rgba(0, 0, 0, 0.17), 0px -3px 5px rgba(0, 0, 0, 0.09);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Style for product card images */
+.productsCard img {
+    width: 100%;
+    height: 200px;
+}
+
+
+/* Стиль для контейнера фильтров */
+#categoryFilter,
+#brandFilter,
+#applyFilters {
+    margin-bottom: 10px;
+}
+
+/* Стиль для секции с продуктами */
+.allProducts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Стиль для карточки продукта */
+.productsCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.productsCard img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productsCard h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.productsCard p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.productsCard button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.productsCard button:hover {
+    background-color: #0056b3;
+}
+
+
+.fa-shopping-cart {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -1px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.cart.activeCart {
+    right: 0;
+}
+
+
+.cart .cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart .cartItem img {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.cart .cartItem button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cart .cartItem button:hover {
+    background-color: #c00;
+}
