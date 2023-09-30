@@ -1,0 +1,81 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .menu-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  
+  .userCard {
+    width: 250px;
+    height: 400px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .userCard img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  
+  .productCard {
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .productCard img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .postCard {
+    width: 250px;
+    height: 200px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  
