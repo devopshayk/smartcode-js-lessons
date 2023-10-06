@@ -57,3 +57,76 @@ h2 {
     background-color: #65DF1F;
     transition: .3s all;
 }
+
+.container_images {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin:24px 0 64px 0;
+}
+
+.container_img {
+    width: 530px;
+}
+
+
+.container_img img {
+    background-color: #f6f7fa;
+    border-radius: 4px 4px 0 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.paraghrap {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px 8px 8px ;
+    width: 440px;
+}
+
+.text_h5 {
+    font-size: 20px;
+    color: #171717;
+    padding: 0 8px 16px ;
+}
+
+
+.first_text {
+    font-size: 14px;
+    padding: 0 0 10px 8px ;
+
+}
+
+.btn_inparr {
+    width: 100%;
+    color: #171717;
+    padding:12px 20px ;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.btn_inparr:hover {
+    background-color: #f1efef;
+    transition: .3s;
+
+}
+
+.btn_inpar {
+    width: 100%;
+    color: #fff;
+    padding:12px 20px ;
+    text-align: center;
+    background-color: #72BF44;
+    border: none;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.btn_inpar:hover {
+    background-color: #81B441;
+    transition: .3s;
+}
